@@ -11,14 +11,14 @@
 // document.getElementsByTagName('tag-name')
 
 document.addEventListener("DOMContentLoaded", () => {
-  let baseURL = "https://newsapi.org";
+  let baseURL = "https://placeimg.com/640/480/tech";
   let apiKey = "a6702f9745414dbdb2031e3fd6930800";
  
   let articleTitle = document.querySelector(".card-title");
   let author = document.querySelector('h6');
   let Description = document.querySelector("h7")
   let source = document.querySelector("h8")
- let published = document.querySelector("h9")
+  let published = document.querySelector("h9")
 
   fetch(baseURL + '/v2/top-headlines?category=technology&language=en&apiKey=' + apiKey)
     .then(response => response.json())
