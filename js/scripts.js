@@ -29,10 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <img src=${article.urlToImage} class="card-img-top" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title">${article.title}</h5>
-                                      <h6>${article.author}</h6>
-                                    </div>
-                                  </div>`
-        row.appendChild(articleCard);
-         });
+
     });
 });
