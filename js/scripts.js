@@ -34,6 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                     </div>
                                   </div>`
         row.appendChild(articleCard);
-      });
+         });
     });
 });
