@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <div class="card-body">
                                       <h5 class="card-title">${article.title}</h5>
                                       <h6>${article.author}</h6>
+            
                                     </div>
                                   </div>`
         row.appendChild(articleCard);
