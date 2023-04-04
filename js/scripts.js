@@ -29,11 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <img src=${article.urlToImage} class="card-img-top" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title">${article.title}</h5>
-                                      <h6>Author</h6>
-                                      <p class="card-text">Discover the top 5 Mi phones with high-quality cameras for breathtaking</p>
-                                    </div>
-                                  </div>`
-        row.appendChild(articleCard);
-      });
+main
     });
 });
