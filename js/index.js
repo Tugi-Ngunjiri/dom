@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let baseURL = "https://newsapi.org";
   let apiKey = "a6702f9745414dbdb2031e3fd6930800";
  
-  let row = document.querySelector('.row');
+  let localNewsContent = document.querySelector('#recent-news-content');
 
   fetch(baseURL + '/v2/top-headlines?category=technology&language=en&apiKey=' + apiKey)
     .then(response => response.json())
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                       <p class="card-text">Discover the top 5 Mi phones with high-quality cameras for breathtaking</p>
                                     </div>
                                   </div>`
-        row.appendChild(articleCard);
+        localNewsContent.appendChild(articleCard);
       });
     });
 });
