@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                       <div class="card-body">
                                         <h5 class="card-title">${article.title}</h5>
                                         <h6>Author</h6>
-                                        <p class="card-text">Discover the top 5 Mi phones with high-quality cameras for breathtaking</p>
+                                        <p class="card-text">Discover the top 5 Mi phones with high-quality cameras for breathtaking technology</p>
                                       </div>
                                     </div>`
           localNewsContent.appendChild(articleCard);
