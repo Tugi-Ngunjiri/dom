@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
    
     let news= document.querySelector('#recent-news-content');
   
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=5dccb5ce04e042cab22d4654c5ffadc6')
+    let baseURL = "https://newsapi.org";
+    let apiKey = "5dccb5ce04e042cab22d4654c5ffadc6";
+    fetch(baseURL + 'v2/top-headlines?country=us&apiKey' + apiKey)
+
       .then(response => response.json())
       .then(data => {
         const news = data.news;
